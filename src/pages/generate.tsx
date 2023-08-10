@@ -1,7 +1,6 @@
 import { FormGroup } from "@/components/form-group";
 import Input from "@/components/input";
 import Button from "@/components/button";
-import { generateRouter } from "@/server/api/routers/generate";
 import { api } from "@/utils/api";
 import { type NextPage } from "next";
 import { signIn } from "next-auth/react";
